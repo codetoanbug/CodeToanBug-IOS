@@ -6,14 +6,44 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		22DC602D26822F6100FB0CE5 /* CodeToanBugFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 22DC602E26822F6100FB0CE5 /* Build configuration list for PBXAggregateTarget "CodeToanBugFramework" */;
+			buildPhases = (
+				22DC603126822FAD00FB0CE5 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = CodeToanBugFramework;
+			productName = CodeToanBugFramework;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		22DC5FFA26822BE200FB0CE5 /* CodeToanBug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DC5FF026822BE100FB0CE5 /* CodeToanBug.framework */; };
 		22DC5FFF26822BE200FB0CE5 /* CodeToanBugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DC5FFE26822BE200FB0CE5 /* CodeToanBugTests.m */; };
 		22DC600126822BE200FB0CE5 /* CodeToanBug.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DC5FF326822BE100FB0CE5 /* CodeToanBug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22DC602B26822E6900FB0CE5 /* CTBMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DC602926822E6900FB0CE5 /* CTBMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22DC602C26822E6900FB0CE5 /* CTBMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DC602A26822E6900FB0CE5 /* CTBMath.m */; };
+		22DC60392682372200FB0CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC60382682372200FB0CE5 /* AppDelegate.swift */; };
+		22DC603B2682372200FB0CE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC603A2682372200FB0CE5 /* SceneDelegate.swift */; };
+		22DC603D2682372200FB0CE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC603C2682372200FB0CE5 /* ViewController.swift */; };
+		22DC60402682372200FB0CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DC603E2682372200FB0CE5 /* Main.storyboard */; };
+		22DC60422682372400FB0CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DC60412682372400FB0CE5 /* Assets.xcassets */; };
+		22DC60452682372400FB0CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DC60432682372400FB0CE5 /* LaunchScreen.storyboard */; };
+		22DC607E2682416400FB0CE5 /* CodeToanBug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DC5FF026822BE100FB0CE5 /* CodeToanBug.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		22DC5FFB26822BE200FB0CE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22DC5FE726822BE100FB0CE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22DC5FEF26822BE100FB0CE5;
+			remoteInfo = CodeToanBug;
+		};
+		22DC60802682416400FB0CE5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 22DC5FE726822BE100FB0CE5 /* Project object */;
 			proxyType = 1;
@@ -29,6 +59,16 @@
 		22DC5FF926822BE200FB0CE5 /* CodeToanBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeToanBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22DC5FFE26822BE200FB0CE5 /* CodeToanBugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeToanBugTests.m; sourceTree = "<group>"; };
 		22DC600026822BE200FB0CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22DC602926822E6900FB0CE5 /* CTBMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTBMath.h; sourceTree = "<group>"; };
+		22DC602A26822E6900FB0CE5 /* CTBMath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTBMath.m; sourceTree = "<group>"; };
+		22DC60362682372200FB0CE5 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DC60382682372200FB0CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22DC603A2682372200FB0CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22DC603C2682372200FB0CE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22DC603F2682372200FB0CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22DC60412682372400FB0CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22DC60442682372400FB0CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22DC60462682372400FB0CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +87,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22DC60332682372200FB0CE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DC607E2682416400FB0CE5 /* CodeToanBug.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,7 +103,9 @@
 			children = (
 				22DC5FF226822BE100FB0CE5 /* CodeToanBug */,
 				22DC5FFD26822BE200FB0CE5 /* CodeToanBugTests */,
+				22DC60372682372200FB0CE5 /* SwiftDemo */,
 				22DC5FF126822BE100FB0CE5 /* Products */,
+				22DC604A268238AF00FB0CE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +114,7 @@
 			children = (
 				22DC5FF026822BE100FB0CE5 /* CodeToanBug.framework */,
 				22DC5FF926822BE200FB0CE5 /* CodeToanBugTests.xctest */,
+				22DC60362682372200FB0CE5 /* SwiftDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +124,8 @@
 			children = (
 				22DC5FF326822BE100FB0CE5 /* CodeToanBug.h */,
 				22DC5FF426822BE100FB0CE5 /* Info.plist */,
+				22DC602926822E6900FB0CE5 /* CTBMath.h */,
+				22DC602A26822E6900FB0CE5 /* CTBMath.m */,
 			);
 			path = CodeToanBug;
 			sourceTree = "<group>";
@@ -86,6 +139,27 @@
 			path = CodeToanBugTests;
 			sourceTree = "<group>";
 		};
+		22DC60372682372200FB0CE5 /* SwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				22DC60382682372200FB0CE5 /* AppDelegate.swift */,
+				22DC603A2682372200FB0CE5 /* SceneDelegate.swift */,
+				22DC603C2682372200FB0CE5 /* ViewController.swift */,
+				22DC603E2682372200FB0CE5 /* Main.storyboard */,
+				22DC60412682372400FB0CE5 /* Assets.xcassets */,
+				22DC60432682372400FB0CE5 /* LaunchScreen.storyboard */,
+				22DC60462682372400FB0CE5 /* Info.plist */,
+			);
+			path = SwiftDemo;
+			sourceTree = "<group>";
+		};
+		22DC604A268238AF00FB0CE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,6 +167,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DC602B26822E6900FB0CE5 /* CTBMath.h in Headers */,
 				22DC600126822BE200FB0CE5 /* CodeToanBug.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,18 +211,45 @@
 			productReference = 22DC5FF926822BE200FB0CE5 /* CodeToanBugTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		22DC60352682372200FB0CE5 /* SwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22DC60472682372400FB0CE5 /* Build configuration list for PBXNativeTarget "SwiftDemo" */;
+			buildPhases = (
+				22DC60322682372200FB0CE5 /* Sources */,
+				22DC60332682372200FB0CE5 /* Frameworks */,
+				22DC60342682372200FB0CE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22DC60812682416400FB0CE5 /* PBXTargetDependency */,
+			);
+			name = SwiftDemo;
+			productName = SwiftDemo;
+			productReference = 22DC60362682372200FB0CE5 /* SwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		22DC5FE726822BE100FB0CE5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CTB;
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = codetoanbug;
 				TargetAttributes = {
 					22DC5FEF26822BE100FB0CE5 = {
 						CreatedOnToolsVersion = 12.5;
 					};
 					22DC5FF826822BE200FB0CE5 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					22DC602D26822F6100FB0CE5 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					22DC60352682372200FB0CE5 = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
@@ -167,6 +269,8 @@
 			targets = (
 				22DC5FEF26822BE100FB0CE5 /* CodeToanBug */,
 				22DC5FF826822BE200FB0CE5 /* CodeToanBugTests */,
+				22DC602D26822F6100FB0CE5 /* CodeToanBugFramework */,
+				22DC60352682372200FB0CE5 /* SwiftDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -186,13 +290,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22DC60342682372200FB0CE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DC60452682372400FB0CE5 /* LaunchScreen.storyboard in Resources */,
+				22DC60422682372400FB0CE5 /* Assets.xcassets in Resources */,
+				22DC60402682372200FB0CE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22DC603126822FAD00FB0CE5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n# Universal Script\n\nset -e\n\nFRAMEWORK_NAME=\"CodeToanBug\"\nIOS_SCHEME_NAME=\"CodeToanBug\"\n\nif [ -d \"${SRCROOT}/build\" ]; then\nrm -rf \"${SRCROOT}/build\"\nfi\n\nSIMULATOR_ARCHIVE_PATH=\"${SRCROOT}/build/${FRAMEWORK_NAME}-iphonesimulator.xcarchive\"\nDEVICE_ARCHIVE_PATH=\"${SRCROOT}/build/${FRAMEWORK_NAME}-iphoneos.xcarchive\"\n\nOUTPUT_DIR=\"${SRCROOT}/framework_out_universal/\"\n\n# Simulator xcarchieve\nxcodebuild archive \\\n  -scheme ${IOS_SCHEME_NAME} \\\n  -archivePath ${SIMULATOR_ARCHIVE_PATH} \\\n  -configuration Release \\\n  -sdk iphonesimulator \\\n  SKIP_INSTALL=NO\n\n# Device xcarchieve\nxcodebuild archive \\\n  -scheme ${IOS_SCHEME_NAME} \\\n  -archivePath ${DEVICE_ARCHIVE_PATH} \\\n  -sdk iphoneos \\\n  -configuration Release \\\n  SKIP_INSTALL=NO\n\n# Clean up old output directory\nrm -rf \"${OUTPUT_DIR}\"\n\n# Create xcframwork combine of all frameworks\nxcodebuild -create-xcframework \\\n  -framework ${SIMULATOR_ARCHIVE_PATH}/Products/Library/Frameworks/${FRAMEWORK_NAME}.framework \\\n  -framework ${DEVICE_ARCHIVE_PATH}/Products/Library/Frameworks/${FRAMEWORK_NAME}.framework \\\n  -output ${OUTPUT_DIR}/${FRAMEWORK_NAME}.xcframework\n\n# Delete the most recent build.\nif [ -d \"${SRCROOT}/build\" ]; then\nrm -rf \"${SRCROOT}/build\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22DC5FEC26822BE100FB0CE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DC602C26822E6900FB0CE5 /* CTBMath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +339,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22DC60322682372200FB0CE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DC603D2682372200FB0CE5 /* ViewController.swift in Sources */,
+				22DC60392682372200FB0CE5 /* AppDelegate.swift in Sources */,
+				22DC603B2682372200FB0CE5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -212,7 +357,31 @@
 			target = 22DC5FEF26822BE100FB0CE5 /* CodeToanBug */;
 			targetProxy = 22DC5FFB26822BE200FB0CE5 /* PBXContainerItemProxy */;
 		};
+		22DC60812682416400FB0CE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22DC5FEF26822BE100FB0CE5 /* CodeToanBug */;
+			targetProxy = 22DC60802682416400FB0CE5 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22DC603E2682372200FB0CE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22DC603F2682372200FB0CE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22DC60432682372400FB0CE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22DC60442682372400FB0CE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		22DC600226822BE200FB0CE5 /* Debug */ = {
@@ -409,6 +578,66 @@
 			};
 			name = Release;
 		};
+		22DC602F26822F6100FB0CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22DC603026822F6100FB0CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22DC60482682372400FB0CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				INFOPLIST_FILE = SwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codetoanbug.SwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		22DC60492682372400FB0CE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				INFOPLIST_FILE = SwiftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codetoanbug.SwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -435,6 +664,24 @@
 			buildConfigurations = (
 				22DC600826822BE200FB0CE5 /* Debug */,
 				22DC600926822BE200FB0CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22DC602E26822F6100FB0CE5 /* Build configuration list for PBXAggregateTarget "CodeToanBugFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DC602F26822F6100FB0CE5 /* Debug */,
+				22DC603026822F6100FB0CE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22DC60472682372400FB0CE5 /* Build configuration list for PBXNativeTarget "SwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DC60482682372400FB0CE5 /* Debug */,
+				22DC60492682372400FB0CE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
