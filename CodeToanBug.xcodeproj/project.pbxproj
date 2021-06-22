@@ -21,6 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		225F4B242682524D00F49A8C /* CodeToanBug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DC5FF026822BE100FB0CE5 /* CodeToanBug.framework */; };
+		225F4B252682524D00F49A8C /* CodeToanBug.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22DC5FF026822BE100FB0CE5 /* CodeToanBug.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		22DC5FFA26822BE200FB0CE5 /* CodeToanBug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DC5FF026822BE100FB0CE5 /* CodeToanBug.framework */; };
 		22DC5FFF26822BE200FB0CE5 /* CodeToanBugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DC5FFE26822BE200FB0CE5 /* CodeToanBugTests.m */; };
 		22DC600126822BE200FB0CE5 /* CodeToanBug.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DC5FF326822BE100FB0CE5 /* CodeToanBug.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,7 +34,6 @@
 		22DC60402682372200FB0CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DC603E2682372200FB0CE5 /* Main.storyboard */; };
 		22DC60422682372400FB0CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DC60412682372400FB0CE5 /* Assets.xcassets */; };
 		22DC60452682372400FB0CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DC60432682372400FB0CE5 /* LaunchScreen.storyboard */; };
-		22DC607E2682416400FB0CE5 /* CodeToanBug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DC5FF026822BE100FB0CE5 /* CodeToanBug.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,20 @@
 			remoteInfo = CodeToanBug;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		225F4B262682524D00F49A8C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				225F4B252682524D00F49A8C /* CodeToanBug.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		22DC5FF026822BE100FB0CE5 /* CodeToanBug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CodeToanBug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22DC607E2682416400FB0CE5 /* CodeToanBug.framework in Frameworks */,
+				225F4B242682524D00F49A8C /* CodeToanBug.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +233,7 @@
 				22DC60322682372200FB0CE5 /* Sources */,
 				22DC60332682372200FB0CE5 /* Frameworks */,
 				22DC60342682372200FB0CE5 /* Resources */,
+				225F4B262682524D00F49A8C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -601,6 +617,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = EA55T84SX3;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -623,6 +640,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = EA55T84SX3;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (

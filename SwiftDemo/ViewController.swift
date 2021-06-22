@@ -16,7 +16,5 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print(math.addTwoNumbers(12, secondnumber: 12))
     }
-
-
 }
 
