@@ -1,0 +1,6 @@
+framework module CodeToanBug {
+  umbrella header "CodeToanBug.h"
+
+  export *
+  module * { export * }
+}
